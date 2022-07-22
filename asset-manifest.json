@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cards-Generator-React/static/css/main.30e56c44.css",
+    "main.js": "/Cards-Generator-React/static/js/main.acad4bc4.js",
+    "index.html": "/Cards-Generator-React/index.html",
+    "main.30e56c44.css.map": "/Cards-Generator-React/static/css/main.30e56c44.css.map",
+    "main.acad4bc4.js.map": "/Cards-Generator-React/static/js/main.acad4bc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e56c44.css",
+    "static/js/main.acad4bc4.js"
+  ]
+}
