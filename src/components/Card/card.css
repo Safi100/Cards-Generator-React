@@ -1,0 +1,31 @@
+.card_container{
+    background: green;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.card{
+    background: #fff;
+    max-width: 220px;
+    text-align: center;
+}
+.card .img_container{
+    height: 180px;
+    display: flex;
+}
+.card .img_container img{
+    object-fit: cover;
+    width: 100%;
+}
+.card .card_info{
+    padding: 15px 10px;
+}
+.card .card_info h2{
+    margin-bottom: 10px;
+}
+.card .card_info p, .card .card_info h2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

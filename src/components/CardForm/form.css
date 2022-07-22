@@ -1,0 +1,51 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: green;
+    width: max-content;
+    padding: 30px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.form p{
+    margin-bottom: 5px;
+}
+.form input{
+    width: 100%;
+    padding: 5px;
+}
+.form textarea{
+    resize: none;
+    width: 100%;
+    padding: 5px;
+}
+.btn{
+    border: 3px solid #fff;
+    background: transparent;
+    padding: 10px 25px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    font-weight: 707;
+    width: max-content;
+    z-index: 2;
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    transition: 0.5s ;
+}
+.btn:hover::before{
+    height: 100%;
+
+}
+.btn:hover{
+    color: #000;
+}

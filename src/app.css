@@ -1,0 +1,22 @@
+*,*::before,*::after{
+    font-family:cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.center-text{
+    text-align: center;
+    padding: 15px 0;
+}
+.name{
+    margin: 5px 0;
+    text-align: center;
+}
+.heart{
+    color: red;
+    font-size: 20px;
+}
